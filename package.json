@@ -1,10 +1,10 @@
 {
   "name": "react-simple-repeater",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "This library repeats react components with minimal overhead",
   "main": "build/index.js",
   "peerDependencies": {
-    "react": "^15.5.4"
+    "react": "^16.3.0"
   },
   "dependencies": {
     "react": "^16.3.0",
@@ -20,9 +20,14 @@
     "url": "https://github.com/sandipanghosh1993/react-simple-repeater.git"
   },
   "author": {
-    "name": "Sandipn Ghosh",
-    "email": "sandipan.ghosh1993s@gmail.com"
+    "name": "Sandipan Ghosh"
   },
+  "keywords": [
+    "react",
+    "repeat",
+    "repeater",
+    "react-simple-repeater"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
