@@ -15,10 +15,15 @@
     "start": "webpack --watch",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandipanghosh1993/react-simple-repeater.git"
+  },
   "author": {
     "name": "Sandipn Ghosh",
     "email": "sandipan.ghosh1993s@gmail.com"
   },
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
