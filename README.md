@@ -17,7 +17,7 @@ class App extends Component {
     render() {               
         return (            
             <Repeater n={100}>
-            // ADD YOUR CODE
+            // ADD YOUR STUFF
             </Repeater>
         )
     }
