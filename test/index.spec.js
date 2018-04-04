@@ -6,10 +6,11 @@ import Repeater from '../src/index'
 
 Enzyme.configure({ adapter: new Adapter() })
 
-const wrapper = mount(<Repeater n={100}><p>Hello</p></Repeater>)
+const n = 100;
+const wrapper = mount(<Repeater n={n}><p>Hello</p></Repeater>)
 
 describe('Repeater', () => {
-  it('renders 100 children', () => {
-    expect(wrapper.children()).toHaveLength(100)
+  it(`renders ${n} children`, () => {
+    expect(wrapper.children()).toHaveLength(n)
   })
 })
